@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./skate.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gen</title>
+    <script type="module" crossorigin src="/assets/index-D4u-aFX2.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CNiJgZku.css">
+  </head>
+  <body>
+    <div class="input-container">
+      <label for="pet-select">Choose a skate:</label>
+      <select name="skates" id="skate-select">
+        <option value="">--Select Skate Type--</option>
+        <option value="🌟Beginner🌟 Skate Tonight!">Beginner</option>
+        <option value="🌟Intermediate🌟 Skate Tonight!">Intermediate</option>
+        <option value="🌟Advanced🌟 Skate Tonight!">Advanced</option>
+      </select>
+      <div>or</div>
+      <input type="text" id="titleInput" placeholder="Enter title text" value="🌟Intermediate🌟 Skate Tonight!">
+      <div>Add body text</div>
+      <input type="text" id="bodyInput" placeholder="Enter body text" value="Seems like a good night for a skate! Same time, same place. See the Discord for more information.">
+
+      <label for="emojis-select">Optional large emoji:</label>
+      <select name="emojis" id="emojis-select">
+        <option value="">--Please choose an emoji--</option>
+        <option value="✨">✨</option>
+        <option value="🛼">🛼</option>
+        <option value="🌈">🌈</option>
+        <option value="🦄">🦄</option>
+        <option value="❌">❌</option>
+        <option value="🎉">🎉</option>
+      </select>
+      <button id="apply-text">Submit</button>
+    </div>
+    <canvas style="width: 1080px; height: 1920px" width="1080" height="1920">
+      Random insta generator
+    </canvas>
+    <div style="height: 50px"></div>
+    <button id="download">Download</button>
+  </body>
+</html>
